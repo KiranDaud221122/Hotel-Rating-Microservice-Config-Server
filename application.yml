@@ -1,7 +1,7 @@
 
 spring:
  application:
-   name: Congig_Default
+   name: Congif_Default
 
 eureka:
   instance:

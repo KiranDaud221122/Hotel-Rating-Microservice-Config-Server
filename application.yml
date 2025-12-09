@@ -1,4 +1,14 @@
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+
 eureka:
   instance:
     prefer-ip-address: true
